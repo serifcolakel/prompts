@@ -24,6 +24,11 @@ Mobile-specific components, style guides, and testing parameters:
 - `DESIGN_SYSTEM_GUIDE.md`: Spacing grid tokens, colors, typography, theme support (dark/light), and reusable component primitives.
 - `MODERN_STYLING_GUIDE.md`: Auditing deprecated styling attributes (e.g. replacing `shadow*` styles with modern cross-platform equivalents) and optimizing layouts.
 
+### ⚛️ `react/` (React Web)
+React 19, web client architecture, styling, and state management:
+- `REACT_BEST_PRACTICES.md`: React 19 standards, Server Component (RSC) vs Client Component boundaries, routing via TanStack Router, and styling via Tailwind CSS & shadcn/ui.
+- `REACT_STATE_GUIDE.md`: Backend server-state caching (TanStack Query), lightweight client-state stores (Zustand), and React Context limits.
+
 ### 🐹 `golang/` (Go Backend Development)
 Go-specific architectural layouts, database integration, and testing patterns:
 - `GO_BEST_PRACTICES.md`: Clean/Hexagonal architecture, concurrency patterns (goroutine leaks, channels, sync), context propagation, and memory allocations.
@@ -36,6 +41,11 @@ Go-specific architectural layouts, database integration, and testing patterns:
 - `GO_GRACEFUL_SHUTDOWN.md`: Trapping OS signals (`SIGINT`, `SIGTERM`), draining HTTP/gRPC servers, closing connection pools, and worker context cancellations.
 - `GO_SAGA_PATTERN.md`: Microservices distributed transactions implementation (Choreography vs Orchestration), compensation actions, and idempotency logic.
 - `COBRA_CLI_GUIDE.md`: Building CLI tools and daemon processes using the Cobra framework, persistent/local flags, and argument validation.
+
+### 🟢 `nodejs/` (Node.js Backend Development)
+Node.js Express & NestJS backend architecture, streams, and error management:
+- `NODE_BEST_PRACTICES.md`: Express and NestJS backend organization, Module-Controller-Service layouts, Event Loop safety, and Node.js Streams processing.
+- `NODE_TEST_GUIDE.md`: Unit testing services with mocks, integration APIs testing via Supertest, and test database lifecycles management.
 
 ### 📐 `typescript/` (TypeScript & Core Architecture)
 TypeScript configurations, state management, forms, and security:
