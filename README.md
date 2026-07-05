@@ -40,29 +40,40 @@ TypeScript configurations, state management, forms, and security:
 - `VALIDATION_GUIDE.md`: Schema definitions (Zod/Yup), type inference, custom refinements (password confirmation check), and localized messages.
 - `SECURITY_GUIDE.md`: Secure storage (Keychain vs AsyncStorage), secret management (`.env`), XSS data sanitization, and HTTPS rules.
 
+### 🌿 `git-workflow/` (Git & PR Management)
+Branch naming, commit formatting, and repository automation:
+- `PULL_REQUEST_GUIDE.md`: Conventional Commit titles, structured PR description templates, and self-review quality checklists.
+- `MULTI_PR_MERGE_GUIDE.md`: Stacked branch rebasing, E2E release branch consolidation, conflict markers resolution flow, and merge vs rebase guidelines.
+- `GITHUB_GITLAB_MCP_GUIDE.md`: Guidelines for using GitHub & GitLab MCP tools to automate PR/MR reviews, pipeline checks, and discussions.
+
 ### 🧪 `testing/` (General E2E & Unit Testing)
 - `PLAYWRIGHT_GUIDE.md`: Playwright E2E guidelines, stable locators (`getByRole`, `getByTestId`), wait avoidance, and Page Object Models (POM).
 - `JEST_GUIDE.md`: Jest unit/integration testing, AAA (Arrange-Act-Assert) pattern, mock strategies, and custom context rendering wrappers.
 
-### 🔍 `code-quality/` (Review & Refactoring)
+### 🔍 `code-quality/` (Review, Refactoring, & Observability)
+Code reviews, codebase navigation, and telemetry:
 - `CODE_REVIEW.md`: Bug finding checklist, edge cases, performance bottlenecks, TypeScript diagnostics, and memory leak tracking (unmounted listeners/timers).
 - `REFACTOR_GUIDE.md`: Refactoring code without behavior/UI modifications, DRY principles, complexity reduction, and magic variable extraction.
 - `DOCUMENTATION_GUIDE.md`: Standardizing README layouts, JSDoc comment blocks, props tables, and migration changelogs.
 - `I18N_GUIDE.md`: Extraction of hardcoded strings, nested translation keys, dynamic variables, and pluralization guidelines.
+- `SENTRY_MCP_GUIDE.md`: Querying production crashes via Sentry MCP, stack trace analysis, and alerting workflows.
+- `CODEBASE_MEMORY_MCP_GUIDE.md`: Navigating and indexing codebases via the codebase-memory-mcp graph search tools.
 
 ### 🎨 `ui-ux/` (UI Polish & Motion)
 - `DESIGN_POLISH_GUIDE.md`: Spacing token alignment, typography scale, modern theme palettes, glassmorphism, soft shadows, and skeleton screens.
 - `ANIMATION_GUIDE.md`: Timing easing curves (spring vs timing), CSS layout reflow prevention, and Reanimated thread worklets.
+
+### 📋 `product/` (Product Management)
+Epics, tickets, and user stories tracking:
+- `PRODUCT_OWNER_GUIDE.md`: User stories writing (INVEST model), acceptance criteria (Gherkin format), RICE score prioritization, and grooming checklists.
+- `BUSINESS_ANALYST_GUIDE.md`: Functional specs, actors use-case specifications, user flow routing, and system data mapping tables.
+- `LINEAR_MCP_GUIDE.md`: Linear ticket transitions, comments sync, and PR linking via the Linear remote MCP server.
 
 ### ⚙️ `workflows/` (Development Lifecycles)
 - `BACKEND_WORKFLOW.md`: API-first OpenAPI designs, cursor pagination, backwards-compatible migrations, and correlation logs propagation.
 - `FRONTEND_WORKFLOW.md`: Feature-driven directories, server state caching (TanStack Query), loading skeletons, and code-splitting.
 - `MOBILE_WORKFLOW.md`: Offline-first loading, outbound sync queues, EAS/Fastlane builds, OTA updates constraints, and store reviewer preparations.
 - `AGENT_ORCHESTRATION_GUIDE.md`: Sub-process command isolation, stdout/stderr scanner stream caching, and WebSockets sync.
-
-### 📋 `product/` (Product Management)
-- `PRODUCT_OWNER_GUIDE.md`: User stories writing (INVEST model), acceptance criteria (Gherkin format), RICE score prioritization, and grooming checklists.
-- `BUSINESS_ANALYST_GUIDE.md`: Functional specs, actors use-case specifications, user flow routing, and system data mapping tables.
 
 ---
 
