@@ -29,6 +29,9 @@ Go-specific architectural layouts, database integration, and testing patterns:
 - `GO_DATABASE_GUIDE.md`: Connection pool tuning, parameterized queries (SQL injection prevention), database transactions, and Goose migrations.
 - `CROSS_COMPILATION_GUIDE.md`: Multi-platform compilation configurations (`CGO_ENABLED=0`), linker flag optimization (`-ldflags="-s -w"`), and asset bundling using `go:embed`.
 - `PYTHON_TO_GO_MIGRATION.md`: Mapping Python structures to Go types, mapping pip dependencies, executing OS subprocess pipes concurrently, and migrating scripts.
+- `GO_CONCURRENT_TESTING.md`: Deterministic testing of concurrent Go routines, channel-based synchronization, and clock/time mocking.
+- `GO_GRACEFUL_SHUTDOWN.md`: Trapping OS signals (`SIGINT`, `SIGTERM`), draining HTTP/gRPC servers, closing connection pools, and worker context cancellations.
+- `GO_SAGA_PATTERN.md`: Microservices distributed transactions implementation (Choreography vs Orchestration), compensation actions, and idempotency logic.
 
 ### 📐 `typescript/` (TypeScript & Core Architecture)
 TypeScript configurations, state management, forms, and security:
@@ -39,6 +42,8 @@ TypeScript configurations, state management, forms, and security:
 - `FORM_GUIDE.md`: Controlled vs uncontrolled inputs (React Hook Form, Formik), dynamic field arrays, and keyboard focus actions.
 - `VALIDATION_GUIDE.md`: Schema definitions (Zod/Yup), type inference, custom refinements (password confirmation check), and localized messages.
 - `SECURITY_GUIDE.md`: Secure storage (Keychain vs AsyncStorage), secret management (`.env`), XSS data sanitization, and HTTPS rules.
+- `ADVANCED_TYPESCRIPT.md`: Conditional types (`infer`), mapped types, key remapping, template literals, custom type guards, and discriminated union states.
+- `RXJS_REACTIVE_GUIDE.md`: Piping stream operations (`switchMap`, `exhaustMap`), BehaviorSubjects, and memory leak prevention using the `takeUntil` pattern.
 
 ### 🌿 `git-workflow/` (Git & PR Management)
 Branch naming, commit formatting, and repository automation:
@@ -74,6 +79,8 @@ Epics, tickets, and user stories tracking:
 - `FRONTEND_WORKFLOW.md`: Feature-driven directories, server state caching (TanStack Query), loading skeletons, and code-splitting.
 - `MOBILE_WORKFLOW.md`: Offline-first loading, outbound sync queues, EAS/Fastlane builds, OTA updates constraints, and store reviewer preparations.
 - `AGENT_ORCHESTRATION_GUIDE.md`: Sub-process command isolation, stdout/stderr scanner stream caching, and WebSockets sync.
+- `GENERATIVE_UI_GUIDE.md`: Generative UI architecture, component registry lookup pattern, schema validations (Zod), and token payload efficiency.
+- `AI_AGENT_GOVERNANCE.md`: Command execution safety guardrails, automated test verification hooks, and token-saving analytics with CLI proxies (`rtk`).
 
 ---
 
