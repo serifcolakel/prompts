@@ -1,5 +1,8 @@
 # AI Development Playbook 🚀
 
+> [!NOTE]
+> This repository is a curated collection of my technical article summaries (published on [Dev.to](https://dev.to/serifcolakel) and [Medium](https://medium.com/@serifcolakel)), combined with prompt templates and best practices developed during my interactive sessions with AI coding agents. It serves as my personal development playbook and guardrail ruleset.
+
 This repository contains a collection of **reusable prompt templates** designed to standardize and align AI coding agents (such as Claude Code, Cursor, Codex, OpenCode, ChatGPT, etc.) with specific engineering guidelines, architectural styles, and quality standards across my development lifecycle.
 
 By referencing these guides during development, you ensure that AI agents generate code that respects type safety, performance budgets, accessibility rules, and clean architecture boundaries.
