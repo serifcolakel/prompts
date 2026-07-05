@@ -35,6 +35,7 @@ Go-specific architectural layouts, database integration, and testing patterns:
 - `GO_CONCURRENT_TESTING.md`: Deterministic testing of concurrent Go routines, channel-based synchronization, and clock/time mocking.
 - `GO_GRACEFUL_SHUTDOWN.md`: Trapping OS signals (`SIGINT`, `SIGTERM`), draining HTTP/gRPC servers, closing connection pools, and worker context cancellations.
 - `GO_SAGA_PATTERN.md`: Microservices distributed transactions implementation (Choreography vs Orchestration), compensation actions, and idempotency logic.
+- `COBRA_CLI_GUIDE.md`: Building CLI tools and daemon processes using the Cobra framework, persistent/local flags, and argument validation.
 
 ### 📐 `typescript/` (TypeScript & Core Architecture)
 TypeScript configurations, state management, forms, and security:
@@ -47,6 +48,8 @@ TypeScript configurations, state management, forms, and security:
 - `SECURITY_GUIDE.md`: Secure storage (Keychain vs AsyncStorage), secret management (`.env`), XSS data sanitization, and HTTPS rules.
 - `ADVANCED_TYPESCRIPT.md`: Conditional types (`infer`), mapped types, key remapping, template literals, custom type guards, and discriminated union states.
 - `RXJS_REACTIVE_GUIDE.md`: Piping stream operations (`switchMap`, `exhaustMap`), BehaviorSubjects, and memory leak prevention using the `takeUntil` pattern.
+- `TAURI_IPC_GUIDE.md`: Tauri v2 IPC communication using `invoke`, async backend event emitters (`emit`/`listen`), and keychain security integrations.
+- `REACT_PROVIDER_PATTERN.md`: Decoupled Provider & Registry pattern with mandatory interface schemas and Null (no-op) fallbacks.
 
 ### 🌿 `git-workflow/` (Git & PR Management)
 Branch naming, commit formatting, and repository automation:
@@ -66,6 +69,7 @@ Code reviews, codebase navigation, and telemetry:
 - `I18N_GUIDE.md`: Extraction of hardcoded strings, nested translation keys, dynamic variables, and pluralization guidelines.
 - `SENTRY_MCP_GUIDE.md`: Querying production crashes via Sentry MCP, stack trace analysis, and alerting workflows.
 - `CODEBASE_MEMORY_MCP_GUIDE.md`: Navigating and indexing codebases via the codebase-memory-mcp graph search tools.
+- `SQLITE_MIGRATIONS_GUIDE.md`: Safe SQLite database schemas migrations, idempotent column alterations, WAL modes, and busy timeouts.
 
 ### 🎨 `ui-ux/` (UI Polish & Motion)
 - `DESIGN_POLISH_GUIDE.md`: Spacing token alignment, typography scale, modern theme palettes, glassmorphism, soft shadows, and skeleton screens.
