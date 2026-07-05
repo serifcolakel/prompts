@@ -47,6 +47,11 @@ Node.js Express & NestJS backend architecture, streams, and error management:
 - `NODE_BEST_PRACTICES.md`: Express and NestJS backend organization, Module-Controller-Service layouts, Event Loop safety, and Node.js Streams processing.
 - `NODE_TEST_GUIDE.md`: Unit testing services with mocks, integration APIs testing via Supertest, and test database lifecycles management.
 
+### 🌀 `effect/` (Functional TypeScript)
+Structured concurrency, type-safe error handling, and modular dependency injection:
+- `EFFECT_BEST_PRACTICES.md`: Effect functional runtime parameters, gen-based computations (`Effect.gen`), dependency injection layers, schema validation, and retry schedules.
+- `EFFECT_ERROR_HANDLING.md`: Structured functional errors tracking, Tagged Error declarations, expected failures matching (`catchTag`), and unexpected defects recovery.
+
 ### 📐 `typescript/` (TypeScript & Core Architecture)
 TypeScript configurations, state management, forms, and security:
 - `TYPESCRIPT_GUIDE.md`: Strict mode guidelines, banning `any` in favor of `unknown`, utility types, generics, and switch-case exhaustiveness checks.
@@ -94,7 +99,7 @@ Epics, tickets, and user stories tracking:
 ### ⚙️ `workflows/` (Development Lifecycles)
 - `BACKEND_WORKFLOW.md`: API-first OpenAPI designs, cursor pagination, backwards-compatible migrations, and correlation logs propagation.
 - `FRONTEND_WORKFLOW.md`: Feature-driven directories, server state caching (TanStack Query), loading skeletons, and code-splitting.
-- `MOBILE_WORKFLOW.md`: Offline-first loading, outbound sync queues, EAS/Fastlane builds, OTA updates constraints, and store reviewer preparations.
+- `MOBILE_WORKFLOW.md`: Offline-first loading, outbound sync queues, EAS/Fastlane builds, OTA updates constraints, and app store reviewer preparations.
 - `AGENT_ORCHESTRATION_GUIDE.md`: Sub-process command isolation, stdout/stderr scanner stream caching, and WebSockets sync.
 - `GENERATIVE_UI_GUIDE.md`: Generative UI architecture, component registry lookup pattern, schema validations (Zod), and token payload efficiency.
 - `AI_AGENT_GOVERNANCE.md`: Command execution safety guardrails, automated test verification hooks, and token-saving analytics with CLI proxies (`rtk`).
